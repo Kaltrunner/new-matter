@@ -26,23 +26,26 @@
     border: 1px solid #000;
 }
 
-#coll-3 {
+/* #coll-3 {
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 10vw;
-}
+} */
 
 #glass-img {
     width: 35vw;
     background: none;
     margin: 0 auto;
+    rotate: 180deg;
 }
 
-#glass-img:hover {
-    cursor: pointer;
+#glass-img-2 {
+    width: 35vw;
+    background: none;
+    margin: 0 auto;
 }
 
 .col-sub-header-1 {
@@ -94,7 +97,8 @@
 
 #image-col-div {
     height: 100vh;
-    background-image: url("/DALL·E 2023-04-09 00.59.32 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png");
+    /* width: 100%; */
+    /* background-image: url("/DALL·E 2023-04-09 00.59.32 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); */
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
@@ -120,4 +124,54 @@
     font-size: 1vw;
     padding: 4vw;
     font-weight: 600;
+}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 { width: 75%; letter-spacing:10px; text-align:center; background-color: transparent; color:#f7f7f7; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;font-size: 6vw;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: -.25vw;
+    line-height: 10vh;
+margin: 0 auto;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title { padding: 2vw; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:3vw; letter-spacing:.5vw;}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {padding: 4vw; width:50%; margin:0 auto; text-align:justify;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {padding-top: 20vw; padding-bottom: 20vw; overflow: hidden; position: relative; width: 100%; background-image: url("/DALL·E 2023-04-09 00.59.28 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center;}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {border-bottom:1px solid #000; width: 15vw; margin:0 auto;}
+
+/* Section - Parallax-2 */
+/**************************/
+#parallax-world-of-ugg-2 .parallax-one {padding-top: 20vw; padding-bottom: 20vw; overflow: hidden; position: relative; width: 100%; background-image: url("/DALL·E 2023-04-09 00.59.32 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg #parallax-world-of-ugg {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
 }
