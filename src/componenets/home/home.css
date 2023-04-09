@@ -9,7 +9,7 @@
 }
 
 .title {
-    font-size: 8vw;
+    font-size: 10vw;
     ;
     font-family: 'EB Garamond', serif;
     font-style: italic;
@@ -23,12 +23,12 @@
     position: relative;
     text-decoration: none;
     text-align: center;
-    line-height: 12vh;
+    line-height: 14vh;
   }
   #under-line::before {
     content: '';
     position: absolute;
-    width: 34vw;
+    width: 44vw;
     height: 1.5px;
     bottom: 0;
     left: auto;

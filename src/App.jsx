@@ -3,6 +3,7 @@ import Home from "./componenets/home/Home";
 import Body from "./componenets/body/Body";
 import Footer from "./componenets/footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Clock from "./componenets/clock/Clock";
 import './App.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
     <div className="app" >
-      <Header />
+      {/* <Clock /> */}
+      <Header clock={Clock} />
       <Home />
       <Body />
       <Footer />
