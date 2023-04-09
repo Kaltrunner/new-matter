@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+#coll-1 {
+    /* background-color: #c9c6cf; */
+    background-color: #f7f7f7;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10vw;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+
+#coll-2 {
+    /* background-color: #d0d0d0; */
+    background-color: #f7f7f7;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #000;
+}
+
+#coll-3 {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vw;
+}
+
+#glass-img {
+    width: 35vw;
+    background: none;
+    margin: 0 auto;
+}
+
+#glass-img:hover {
+    cursor: pointer;
+}
+
+.col-sub-header-1 {
+    font-size: 3vw;
+    margin-left: 3vw;
+    background-color: #f7f7f7;
+    /* background-color: #c9c6cf; */
+}
+
+.col-sub-header-2 {
+    font-size: 3vw;
+    margin-left: 3vw;
+    background-color: #f7f7f7;
+    /* background-color: #d0d0d0; */
+}
+
+.col-p-tag-1 {
+    font-size: 1vw;
+    margin-left: 3vw;
+    color: #000000a0;
+    background-color: #f7f7f7;
+    /* background-color: #c9c6cf; */
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.col-p-tag-2 {
+    font-size: 1vw;
+    margin-left: 3vw;
+    color: #000000a0;
+    background-color: #f7f7f7;
+    /* background-color: #d0d0d0; */
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.col-p-tag-3 {
+    width: 60%;
+    font-size: 6vw;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: -.25vw;
+    color: #000;
+    line-height: 10vh;
+}
+
+#image-col-div {
+    height: 100vh;
+    background-image: url("/DALL·E 2023-04-09 00.59.32 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#svg-img {
+    background: none;
+    z-index: 999;
+    width: 40vw;
+    /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); */
+}
+
+#planet-img {
+    /* width: 25vw; */
+    border-radius: 100px;
+}
+
+.coordinates {
+    font-size: 1vw;
+    padding: 4vw;
+    font-weight: 600;
+}
