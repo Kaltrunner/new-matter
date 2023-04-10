@@ -1,3 +1,9 @@
 p {
     font-size: 2vw;
 }
+
+.footer-div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
