@@ -62,11 +62,12 @@ function Home() {
   }
 
   return (
+    <>
     <div className="header-body">
       <h1 className="title" id="under-line">
         New Matter
       </h1>
-
+      </div>
       <div className="container text-center" id="data-col-row-top">
         <div className="row home-data-div" id="data-row-div-home">
           <div className="col" id="data-col">
@@ -107,7 +108,8 @@ function Home() {
           <span></span>
         </p>
       </div>
-    </div>
+    
+    </>
   );
 }
 

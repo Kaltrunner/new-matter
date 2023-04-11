@@ -316,3 +316,9 @@
     font-size: 1vw;
     font-weight: 200;
 }
+
+@media screen and (min-width: 2116px) {
+  #coll-1 {
+    border: 1px solid #000;
+}
+}
