@@ -43,8 +43,8 @@ function Home() {
       let h = time.getHours();
       let m = time.getMinutes();
       let s = time.getSeconds();
-        m = checkTime(m);
-        s = checkTime(s);
+      m = checkTime(m);
+      s = checkTime(s);
       //   let month = months[time.getMonth()];
       //   let d = time.getDate();
 
@@ -52,11 +52,11 @@ function Home() {
     };
 
     const checkTime = (i) => {
-        if (i < 10) {
-          i = "0" + i;
-        }
-        return i;
-      };
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    };
 
     return <div id="landing-txt">{formattedTime()}</div>;
   }
@@ -80,6 +80,24 @@ function Home() {
           </div>
           <div className="col" id="data-col">
             mysteries of our universe.
+          </div>
+        </div>
+
+        <div className="row" id="data-row-div-home">
+          <div className="col" id="data-col"></div>
+          <div className="col" id="data-col"></div>
+          <div className="col" id="data-col"></div>
+          <div className="col" id="data-col">
+            Designed and developed by{" "}
+            <a
+              id="portfolio-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.erikmrussell.com"
+            >
+              Erik
+            </a>{" "}
+            & Joyce Russell —  ©2023
           </div>
         </div>
       </div>
