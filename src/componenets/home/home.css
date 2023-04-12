@@ -14,7 +14,7 @@
     font-weight: 100;
     letter-spacing: -.25vw;
     color: #000;
-    margin-top: 10vw;
+    margin-top: 8vw;
 }
 
 #under-line {
@@ -28,7 +28,7 @@
     content: '';
     position: absolute;
     width: 44vw;
-    height: 1.5px;
+    height: 2px;
     bottom: 0;
     left: auto;
     transform-origin: left;
@@ -53,18 +53,19 @@
   #data-col-row-top {
     margin-top: 2vw;
     margin-bottom: 12vw;
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
     padding: 0;
   }
 
   #data-col-row-top-bottom {
     margin-top: 2vw;
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
     padding: 0;
   }
 
   #data-col-row-container {
-    margin: 4vw 4vw;
+    /* margin: 4vw 4vw; */
+    margin-top: 4vw;
     padding: 0;
   }
 
@@ -82,16 +83,16 @@
   }
 
   #data-col {
-    font-size: 1vw;
+    font-size: 1.15vw;
     letter-spacing: .05vw;
     text-align: start;
     margin: 0;
   }
 
-  #landing-txt p {
-    font-size: 1vw;
+  /* #landing-txt p {
+    font-size: 1.15vw;
     color: #000;
-  }
+  } */
 
   #portfolio-link {
     color: #ec67f1;

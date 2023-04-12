@@ -20,7 +20,7 @@
 }
 
 .col-top-text-tag {
-    font-size: 1vw;
+    font-size: 1.15vw;
 }
 
 #coll-1 {
@@ -60,7 +60,7 @@
 
 #glass-img {
     width: 30vw;
-    height: 30vw;
+    /* height: 30vw; */
     background: none;
     margin: 0 auto;
     rotate: 180deg;
@@ -68,7 +68,7 @@
 
 #glass-img-2 {
     width: 30vw;
-    height: 30vw;
+    /* height: 30vw; */
     background: none;
     margin: 0 auto;
 }
@@ -95,7 +95,7 @@
 }
 
 .col-p-tag-1 {
-    font-size: 1vw;
+    font-size: 1.15vw;
     margin-left: 2vw;
     color: #000000a0;
     background-color: #f7f7f7;
@@ -106,7 +106,7 @@
 }
 
 .col-p-tag-2 {
-    font-size: 1vw;
+    font-size: 1.15vw;
     margin-left: 2vw;
     color: #000000a0;
     background-color: #f7f7f7;
@@ -158,19 +158,23 @@
 }
 
 .first-character {
-    line-height: 8vh;
-    letter-spacing: 1vw;
-    word-spacing: .5vw;
-    font-size: 4vw;
-    padding: 0;
-    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 6vw;
+    font-weight: 100;
+    line-height: 10vh;
+    letter-spacing: -.2vw;
+    /* padding: 0;
+    margin: 0; */
 }
 
 #first-character-span {
-    color: #ec67f1;
-    font-weight: 700;
-    font-size: 5vw;
-    line-height: 10vh;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 6vw;
+    font-weight: 100;
+    line-height: 12vh;
+    letter-spacing: -.2vw;
+    /* color: #ec67f1; */
 }
 
 #ugg-3-h4 {
@@ -199,7 +203,7 @@
 }
 
 .coordinates {
-    font-size: 1vw;
+    font-size: 1.15vw;
     padding: 4vw;
     font-weight: 600;
 }
@@ -255,13 +259,12 @@
 
 /* Typography */
 /**************************/
-#parallax-world-of-ugg h2 { width: 75%; letter-spacing:10px; text-align:center; background-color: transparent; color:#f7f7f7; font-weight:400; z-index:10; opacity:.9;font-size: 6vw;
+#parallax-world-of-ugg h2 { width: 75%; letter-spacing:10px; text-align:center; background-color: transparent; color:#f7f7f7; z-index:10; font-size: 6vw;
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-weight: 100;
-    letter-spacing: -.25vw;
+    letter-spacing: -.2vw;
     line-height: 10vh;
-    filter: "difference";
     margin: 0 auto;}
 
 #parallax-world-of-ugg p {font-weight:400; font-size:4vw; line-height:7vh;}
@@ -273,11 +276,11 @@
 
 /* Section - Block */
 /**************************/
-#parallax-world-of-ugg .block { width:90%; margin: 4vw 4vw; text-align: start;}
+#parallax-world-of-ugg .block { margin: 4vw; text-align: start;}
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 18vw; padding-bottom: 18vw; overflow: hidden; position: relative; width: 100%;background-image: url("/DALL·E 2023-04-09 00.59.28 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-one {padding-top: 18vw; padding-bottom: 20vw; overflow: hidden; position: relative; width: 100%;background-image: url("/DALL·E 2023-04-09 00.59.28 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 /* Section - Parallax-2 */
 /**************************/
