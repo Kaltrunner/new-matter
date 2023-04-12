@@ -54,12 +54,10 @@ function Home() {
         <div className="row home-data-div" id="data-row-div-home">
           <div className="col" id="data-col"></div>
           <div className="col" id="data-col">
-            Utilizing advanced technologies to analyze extraterrestrial samples
-            and unravel the mysteries of our universe.
+          Utilizing advanced technologies to analyze extraterrestrial samples, we can unravel the mysteries of our universe. 
           </div>
           <div className="col" id="data-col">
-            Focusing on Betelgeuse aims to deepen our understanding of stellar
-            evolution and the mechanisms behind its recent dimming.
+          Furthermore, focusing on Betelgeuse allows us to deepen our understanding of stellar evolution and the mechanisms behind its recent dimming.
           </div>
           <div className="col" id="data-col">
             Your visit is greatly appreciated, thank you for the exploration.

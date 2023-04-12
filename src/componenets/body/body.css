@@ -169,7 +169,7 @@
 
 #first-character-span {
     font-family: 'EB Garamond', serif;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 6vw;
     font-weight: 100;
     line-height: 12vh;
