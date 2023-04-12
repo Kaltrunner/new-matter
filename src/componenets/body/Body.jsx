@@ -424,12 +424,6 @@ function Body() {
           </div>
         </section>
       </div>
-      {/* </div> */}
-
-      {/* <div className="container text-center"  > */}
-      {/* <svg id="svg-img" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M128 248L128 8M231.923 68L24.0769 188M8 128L248 128M231.923 188L24.0769 68" stroke="white" strokeWidth="4"/>
-</svg> */}
 
       <div className="col" id="col-top">
         <h4 className="col-top-text">Sample(s) under review:</h4>
@@ -444,7 +438,8 @@ function Body() {
             <img id="glass-img" src="Glass_Prism0071.png" alt="" />
             <h4 className="col-sub-header-1">Oberon-038TC</h4>
             <p className="col-p-tag-1 bold-tag">
-              Found: 17.29961846576 AU 0r about 1.6081e+9 miles from the serface.
+              Found: 17.29961846576 AU 0r about 1.6081e+9 miles from the
+              serface.
             </p>
             <p className="col-p-tag-1">
               • Emits nanoparticle vapor of unknown composition.
@@ -461,7 +456,8 @@ function Body() {
             <img id="glass-img-2" src="Nickel0007.png" alt="" />
             <h4 className="col-sub-header-2">Lear-273TC</h4>
             <p className="col-p-tag-2 bold-tag">
-              Found: 23.79948133313 AU or about 2.2123e+9 miles from the serface.
+              Found: 23.79948133313 AU or about 2.2123e+9 miles from the
+              serface.
             </p>
             <p className="col-p-tag-2">
               • Dissolves under temperatures below 2736.055 C / 4956.900 F.
@@ -492,10 +488,8 @@ function Body() {
           </div>
         </section>
       </div>
-      {/* </div> */}
 
       <p className="coordinates">RA 5h 55m 10s | Dec +7° 24′ 26″</p>
-
     </>
   );
 }

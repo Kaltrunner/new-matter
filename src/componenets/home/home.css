@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 .header-body {
-  /* height: 45vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,9 +44,6 @@
   }
 
   @media only screen and (max-width: 1320px) {
-    /* .title {
-      font-size: 100px;
-    } */
     #under-line::before {
       width: 44vw;
       line-height: 16vh;
@@ -55,19 +51,21 @@
   }
 
   #data-col-row-top {
-    /* margin: 0;
-    padding: 0; */
     margin-top: 2vw;
-    /* margin-left: 2vw; */
+    margin-bottom: 12vw;
+    margin-left: 4vw;
+    padding: 0;
+  }
+
+  #data-col-row-top-bottom {
+    margin-top: 2vw;
+    margin-left: 4vw;
+    padding: 0;
   }
 
   #data-col-row-container {
-    margin: 4vw 1vw;
-    margin: 4vw auto;
-  }
-
-  .home-data-div {
-    margin-bottom: 14vw;
+    margin: 4vw 4vw;
+    padding: 0;
   }
 
   #data-row-div {
@@ -76,16 +74,18 @@
 
   #data-row-div-home {
     text-align: start;
+    
   }
 
   #data-row-div:hover  {
     color: #ec67f1;
-    background-color: #000;
   }
 
   #data-col {
-    font-size: .85vw;
+    font-size: 1vw;
     letter-spacing: .05vw;
+    text-align: start;
+    margin: 0;
   }
 
   #landing-txt p {

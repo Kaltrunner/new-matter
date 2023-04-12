@@ -12,21 +12,6 @@ function Home() {
       return () => clearInterval(intervalId);
     }, []);
 
-    // let months = [
-    //   "January",
-    //   "February",
-    //   "March",
-    //   "April",
-    //   "May",
-    //   "June",
-    //   "July",
-    //   "August",
-    //   "September",
-    //   "October",
-    //   "November",
-    //   "December",
-    // ];
-
     let days = [
       "Sunday",
       "Monday",
@@ -39,14 +24,11 @@ function Home() {
 
     const formattedTime = () => {
       let day = days[time.getDay()];
-      //   let y = time.getFullYear();
       let h = time.getHours();
       let m = time.getMinutes();
       let s = time.getSeconds();
       m = checkTime(m);
       s = checkTime(s);
-      //   let month = months[time.getMonth()];
-      //   let d = time.getDate();
 
       return day + " " + h + ":" + m + ":" + s;
     };
@@ -63,10 +45,10 @@ function Home() {
 
   return (
     <>
-    <div className="header-body">
-      <h1 className="title" id="under-line">
-        New Matter
-      </h1>
+      <div className="header-body">
+        <h1 className="title" id="under-line">
+          New Matter
+        </h1>
       </div>
       <div className="container text-center" id="data-col-row-top">
         <div className="row home-data-div" id="data-row-div-home">
@@ -74,17 +56,19 @@ function Home() {
             {Clock()}
           </div>
           <div className="col" id="data-col">
-            utilizing advanced technologies to analyze
+            utilizing advanced technologies to
           </div>
           <div className="col" id="data-col">
-            extraterrestrial samples and unravel the
+            analyze extraterrestrial samples and
           </div>
           <div className="col" id="data-col">
-            mysteries of our universe.
+            unravel the mysteries of our universe.
           </div>
         </div>
+      </div>
 
-        <div className="row" id="data-row-div-home">
+      <div className="container text-center" id="data-col-row-top-bottom">
+        <div className="row home-data-div" id="data-row-div-home">
           <div className="col" id="data-col"></div>
           <div className="col" id="data-col"></div>
           <div className="col" id="data-col"></div>
@@ -98,7 +82,7 @@ function Home() {
             >
               Erik
             </a>{" "}
-            & Joyce Russell —  ©2023
+            & Joyce Russell — ©2023
           </div>
         </div>
       </div>
@@ -108,7 +92,6 @@ function Home() {
           <span></span>
         </p>
       </div>
-    
     </>
   );
 }

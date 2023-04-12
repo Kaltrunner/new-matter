@@ -8,26 +8,22 @@
 }
 
 #col-top {
-    /* width: 20%; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 
 .col-top-text {
     font-size: 3vw;
-    /* margin-left: 1vw; */
     font-family: 'EB Garamond', serif;
 }
 
 .col-top-text-tag {
     font-size: 1vw;
-    /* margin-left: 1vw; */
 }
 
 #coll-1 {
-    /* background-color: #c9c6cf; */
     background-color: #f7f7f7;
     height: 80vh;
     display: flex;
@@ -42,7 +38,6 @@
 
 
 #coll-2 {
-    /* background-color: #d0d0d0; */
     background-color: #f7f7f7;
     height: 80vh;
     display: flex;
@@ -80,14 +75,14 @@
 
 .col-sub-header-1 {
     font-size: 3vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
     background-color: #f7f7f7;
     font-family: 'EB Garamond', serif;
 }
 
 .col-sub-header-2 {
     font-size: 3vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
     background-color: #f7f7f7;
     font-family: 'EB Garamond', serif;
 }
@@ -101,7 +96,7 @@
 
 .col-p-tag-1 {
     font-size: 1vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
     color: #000000a0;
     background-color: #f7f7f7;
     padding: 0;
@@ -112,7 +107,7 @@
 
 .col-p-tag-2 {
     font-size: 1vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
     color: #000000a0;
     background-color: #f7f7f7;
     padding: 0;
@@ -127,6 +122,7 @@
 
 .text-center {
     padding:0;
+    margin:0;
 }
 .container {
     padding: 0;
@@ -152,7 +148,7 @@
     background: none;
     display: flex;
     align-items: flex-start;
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 
 .parallax-one-info-text {
@@ -172,7 +168,6 @@
 
 #first-character-span {
     color: #ec67f1;
-    /* color: rgb(84, 233, 84); */
     font-weight: 700;
     font-size: 5vw;
     line-height: 10vh;
@@ -213,7 +208,6 @@
     background: none;
     display: flex;
     justify-content: space-evenly;
-    /* align-items: flex-start; */
 }
 
 .info-div {
@@ -255,7 +249,6 @@
 }
 
 #purp {
-    /* color: rgb(84, 233, 84); */
     color: #ec67f1;
 }
   
@@ -280,13 +273,11 @@
 
 /* Section - Block */
 /**************************/
-#parallax-world-of-ugg .block { padding: 2vw; width:100%; margin:0 auto; text-align: start;}
+#parallax-world-of-ugg .block { width:90%; margin: 4vw 4vw; text-align: start;}
 
 /* Section - Parallax */
 /**************************/
 #parallax-world-of-ugg .parallax-one {padding-top: 18vw; padding-bottom: 18vw; overflow: hidden; position: relative; width: 100%;background-image: url("/DALL·E 2023-04-09 00.59.28 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center;}
-
-/* background-image: url("/DALL·E 2023-04-09 00.59.28 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png");  */
 
 /* Section - Parallax-2 */
 /**************************/
@@ -296,29 +287,8 @@
 /**************************/
 #parallax-world-of-ugg-3 .parallax-one {display: flex; flex-direction: column; padding-top: 2vw; padding-bottom: 10vw; margin-bottom: 10vw; overflow: hidden; position: relative; width: 100%;  background-color: #000; background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
-/* background-image: url("/DALL·E 2023-04-09 00.59.15 - Photo realistic of a new planet surface that is a little metallic and a little minimal in monochromatic neutrals .png"); */
-
-
-
-/* Media Queries */
-/**************************/
-/* @media screen and (max-width: 1200px) and (min-width: 768px) {
-  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
-} */
-/* @media screen and (max-width: 767px) {
-  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
-  #parallax-world-of-ugg h2 {font-size:30px;}
-  #parallax-world-of-ugg .block {padding: 30px;}
-  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg #parallax-world-of-ugg {padding-top:100px; padding-bottom:100px;}
-} */
-
-.carl {
-    font-size: 1vw;
-    font-weight: 200;
-}
-
 @media screen and (min-width: 2116px) {
   #coll-1 {
     border: 1px solid #000;
-}
+    }
 }
