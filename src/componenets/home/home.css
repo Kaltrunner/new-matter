@@ -95,5 +95,11 @@
   } */
 
   #portfolio-link {
+    text-decoration: none;
     color: #ec67f1;
+    border-bottom: 1px solid #fff;
+  }
+
+  #portfolio-link:hover {
+    border-bottom: 1px solid #000;
   }
