@@ -143,6 +143,10 @@
     justify-content: center;
 }
 
+.parallax-one h2 {
+    mix-blend-mode: difference;
+}
+
 .parallax-one-info {
     width: 30%;
     background: none;
