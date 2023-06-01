@@ -460,7 +460,7 @@ function Body() {
             <p className="col-p-tag-1">
               • Adaptively maintaining an optimal balance moisture.
             </p>
-            <p className="col-p-tag-1">
+            <p className="col-p-tag-1" id="bottom-line">
               • Regeneration properties (under review).
             </p>
           </div>
@@ -478,7 +478,7 @@ function Body() {
             <p className="col-p-tag-2">
               • Resilient to disturbances above 3870.237 C / 2132.353 F.{" "}
             </p>
-            <p className="col-p-tag-2">• Enhanced bioavailability.</p>
+            <p className="col-p-tag-2" id="bottom-line">• Enhanced bioavailability.</p>
           </div>
         </div>
       </div>

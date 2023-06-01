@@ -25,7 +25,7 @@
 
 #coll-1 {
     background-color: #f7f7f7;
-    /* height: 25rem; */
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -39,7 +39,7 @@
 
 #coll-2 {
     background-color: #f7f7f7;
-    /* height: 25rem; */
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -48,21 +48,11 @@
     margin-bottom: 8vw;
 }
 
-/* #coll-3 {
-    background-color: #000;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    border: 1px solid #000;
-    margin: 0 2vw;
-    margin-bottom: 8vw;
-} */
-
 #glass-img {
     width: 30vw;
     /* height: 30vw; */
     background: none;
-    margin: 0 auto;
+    margin: 5vh auto;
     rotate: 180deg;
 }
 
@@ -70,7 +60,7 @@
     width: 30vw;
     /* height: 30vw; */
     background: none;
-    margin: 0 auto;
+    margin: 5vh auto;
 }
 
 .col-sub-header-1 {
@@ -87,11 +77,14 @@
     font-family: 'EB Garamond', serif;
 }
 
+#bottom-line {
+    padding-bottom: 4vh;
+}
+
 .col-text-div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
 
 .col-p-tag-1 {
