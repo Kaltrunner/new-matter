@@ -83,7 +83,14 @@
   }
 
   #data-col {
-    font-size: 1.15vw;
+    font-size: 1.25vw;
+    letter-spacing: .05vw;
+    text-align: start;
+    margin: 0;
+  }
+
+  .header-text {
+    /* font-size: .5vw; */
     letter-spacing: .05vw;
     text-align: start;
     margin: 0;
