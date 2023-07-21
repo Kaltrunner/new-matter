@@ -14,7 +14,8 @@ function Body() {
           <div className="block">
             <h4 className="first-character">
               <span id="first-character-span">Betelgeuse</span>
-              <br />Located in the constellation of Orion, approximately 642.5
+              <br />
+              Located in the constellation of Orion, approximately 642.5
               light-years away from Earth. It is expected to explode as a
               supernova in the relatively near future, although it is difficult
               to predict exactly when this will happen.
@@ -27,20 +28,16 @@ function Body() {
         <div className="container text-center" id="data-col-row-container">
           <div className="row" id="data-row-div">
             <div className="col" id="data-col">
-            Observation data:
+              Observation data:
             </div>
-            <div className="col" id="data-col">
-              
-            </div>
-            <div className="col" id="data-col">
-              
-            </div>
+            <div className="col" id="data-col"></div>
+            <div className="col" id="data-col"></div>
             <div className="col" id="data-col"></div>
           </div>
 
           <div className="row" id="data-row-div">
             <div className="col" id="data-col">
-            Betelgeuse
+              Betelgeuse
             </div>
             <div className="col" id="data-col">
               Constellation
@@ -52,9 +49,7 @@ function Body() {
           </div>
 
           <div className="row" id="data-row-div">
-            <div className="col" id="data-col">
-              
-            </div>
+            <div className="col" id="data-col"></div>
             <div className="col" id="data-col">
               Pronunciation
             </div>
@@ -478,7 +473,9 @@ function Body() {
             <p className="col-p-tag-2">
               • Resilient to disturbances above 3870.237 C / 2132.353 F.{" "}
             </p>
-            <p className="col-p-tag-2" id="bottom-line">• Enhanced bioavailability.</p>
+            <p className="col-p-tag-2" id="bottom-line">
+              • Enhanced bioavailability.
+            </p>
           </div>
         </div>
       </div>

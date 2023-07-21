@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 ::selection {
   color: #ec67f1;
   background-color: #101820;
@@ -14,5 +18,24 @@
   height: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+#scroller {
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px rgba(16, 24, 32, 0.03),
+  0px 1px 6px rgba(16, 24, 32, 0.07),
+  0px 1px 13px rgba(16, 24, 32, 0.10),
+  0px 3px 24px rgba(16, 24, 32, 0.14),
+  0px 4px 37px rgba(16, 24, 32, 0.17),
+  0px 6px 53px rgba(16, 24, 32, 0.20),
+  0px 8px 73px rgba(16, 24, 32, 0.24),
+  0px 10px 95px rgba(16, 24, 32, 0.27);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+#scroller svg {
+  fill: #101820 !important;
+  background-color: whitesmoke !important;
 }
 

@@ -44,12 +44,10 @@ function Header() {
   }
   return (
     <div className="header-body-div">
-      
-
       <div className="container text-center" id="data-col-row-container">
         <div className="row">
           <div className="col" id="data-col">
-          {Clock()}
+            {Clock()}
           </div>
           <div className="col" id="data-col"></div>
           <div className="col" id="data-col"></div>

@@ -34,7 +34,7 @@ function Home() {
             >
               Erik Russell
             </a>{" "}
-             ©2023
+            – ©2023
           </div>
         </div>
       </div>

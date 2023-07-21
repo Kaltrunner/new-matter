@@ -1,4 +1,4 @@
-import "./clock.css"
+import "./clock.css";
 
 import { useState, useEffect } from "react";
 
