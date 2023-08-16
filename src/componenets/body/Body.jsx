@@ -7,6 +7,7 @@ function Body() {
         <section>
           <div className="parallax-one">
             <h2>"The absence of evidence is not the evidence of absence."</h2>
+            <p className="parallax-p">– Carl Sagan</p>
           </div>
         </section>
 

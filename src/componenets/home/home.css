@@ -15,6 +15,7 @@
     letter-spacing: -.25vw;
     color: #000;
     margin-top: 8vw;
+    line-height: 1;
 }
 
 #under-line {
@@ -22,7 +23,6 @@
     position: relative;
     text-decoration: none;
     text-align: center;
-    line-height: 14vh;
   }
   #under-line::before {
     content: '';
