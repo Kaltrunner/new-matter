@@ -27,7 +27,7 @@
   #under-line::before {
     content: '';
     position: absolute;
-    width: 44vw;
+    width: 100%;
     height: 2px;
     bottom: 0;
     left: auto;
